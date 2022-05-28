@@ -5,10 +5,10 @@ from process_data import main
 import json
 from process_data import searchAnswer
 from process_data import processAnswer
-CONSUMER_KEY = 'w3OmcxRZgtGl2iClNzixpd5py'
-CONSUMER_SECRET = 'mq86IOpWfxpCDPf73YFkhylN9FO0d45QdNqElPUuxNGaTtazSL'
-ACCESS_KEY = '1219502919445180417-fDDhQuV37lXbi3NwOhjCNacnuioAqK'
-ACCESS_SECRET = 'bOHzyCOU2Ktc8JqcomJeqKeShTI8x9KrLfjGdd9bZboQp'
+CONSUMER_KEY = ''
+CONSUMER_SECRET = ''
+ACCESS_KEY = ''
+ACCESS_SECRET = ''
 
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
